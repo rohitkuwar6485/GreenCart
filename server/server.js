@@ -22,12 +22,23 @@ await connectCloudinary();
 //Allow multiple origins
 const allowedOrigins = ['http://localhost:5173','https://green-cart-jade.vercel.app']
 
-app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
-
 //Middleware configuration
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin) return callback(null, true); // allow requests with no origin (e.g. Postman)
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true); // allow this origin
+    } else {
+      callback(new Error('Not allowed by CORS')); // block others
+    }
+  },
+  credentials: true
+}));
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({origin: allowedOrigins, credentials : true}));
+
+app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
+
 
 app.get("/", (req,res) => {
     res.send("API is Working");
