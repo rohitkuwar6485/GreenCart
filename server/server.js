@@ -34,10 +34,13 @@ app.use(cors({
   },
   credentials: true
 }));
+
+app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
+
 app.use(express.json());
 app.use(cookieParser());
 
-app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
+
 
 
 app.get("/", (req,res) => {
