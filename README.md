@@ -1,40 +1,45 @@
-# 🛒 GreenCart
+# 🛒 GreenCart — Online Grocery Delivery Platform
 
-**Live Demo:** [https://green-cart-jade.vercel.app/](https://green-cart-jade.vercel.app/)
+**Live Application:** [GreenCart](https://green-cart-jade.vercel.app/)
 
-GreenCart is a full-stack **grocery delivery web application** built using the **MERN stack (MongoDB, Express, React, Node.js)**.  
-It allows users to browse, search, and purchase groceries online while enabling sellers to manage products and orders through a dedicated dashboard.
+GreenCart is a full-stack **Grocery Delivery Web Application** built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.  
+It provides a seamless platform for customers to buy groceries online and for sellers to manage their products and orders efficiently.
 
 ---
 
-## 🚀 Features
+## 🌟 Key Features
 
-### 👤 User Side
-- **User Authentication:** Secure login and signup.
-- **Category-wise Browsing:** View groceries filtered by category.
-- **Product Search:** Quickly search for products by name.
-- **Product Details Page:** Click on any product to view its complete details and related items.
-- **Shopping Cart:** Add products to the cart and review them before purchase.
-- **Address Management:** Add or update delivery address during checkout.
-- **Payment Options:** Choose between **Cash on Delivery (COD)** or **Online Payment (Stripe)**.
-- **Order Placement:** Seamless checkout and order confirmation flow.
+### 👤 User Module
+- 🔐 **User Authentication** — Register and log in securely.
+- 🛍️ **Browse by Category** — View groceries organized by category.
+- 🔎 **Product Search** — Find products instantly by name or category.
+- 📦 **Product Details Page** — Displays complete product info and related items.
+- 🛒 **Cart System** — Add, remove, or view products in the cart.
+- 🏠 **Address Management** — Add or update delivery address before checkout.
+- 💳 **Payment Options** — Pay using **Cash on Delivery (COD)** or **Online (Stripe)**.
+- ✅ **Order Placement** — Confirm orders and receive real-time order summary.
 
-### 🏪 Seller Side
-- **Seller Authentication:** Separate signup and login for sellers.
-- **Seller Dashboard:**
-  - **Add Product** – Upload new items with image, category, and price.
-  - **Product List** – View and manage all added products.
-  - **Orders Section** – Manage customer orders efficiently.
-- **Stock Management:** Toggle product availability (**In Stock / Out of Stock**) with a single switch.
+### 🏪 Seller Module
+- 🧾 **Seller Authentication** — Separate login and registration for sellers.
+- 📋 **Seller Dashboard** — Organized sections for:
+  - ➕ **Add Product**
+  - 🗂️ **Product List**
+  - 📦 **Orders Management**
+- 🔁 **Stock Availability Toggle** — Instantly switch between *In Stock* or *Out of Stock*.
+- 📊 **Efficient Product Management** — Manage products and inventory in real time.
 
 ---
 
 ## 🧩 Tech Stack
 
-| Layer | Technology |
-|-------|-------------|
+| Layer | Technologies Used |
+|-------|--------------------|
 | **Frontend** | React.js, Tailwind CSS |
 | **Backend** | Node.js, Express.js |
 | **Database** | MongoDB |
+| **Authentication** | JSON Web Token (JWT) |
 | **Payment Gateway** | Stripe |
-| **Deployment** | Vercel (Frontend & Backend) |
+| **Deployment** | Vercel |
+
+---
+
