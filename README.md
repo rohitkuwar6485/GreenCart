@@ -3,43 +3,42 @@
 **Live Application:** [GreenCart](https://green-cart-jade.vercel.app/)
 
 GreenCart is a full-stack **Grocery Delivery Web Application** built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.  
-It provides a seamless platform for customers to buy groceries online and for sellers to manage their products and orders efficiently.
+It provides a seamless experience for customers to browse, search, and purchase groceries online, while enabling sellers to manage their products, stock, and orders efficiently.
 
 ---
 
 ## 🌟 Key Features
 
 ### 👤 User Module
-- 🔐 **User Authentication** — Register and log in securely.
-- 🛍️ **Browse by Category** — View groceries organized by category.
-- 🔎 **Product Search** — Find products instantly by name or category.
-- 📦 **Product Details Page** — Displays complete product info and related items.
+- 🔐 **User Authentication** — Secure login and signup.
+- 🛍️ **Category-Wise Browsing** — View groceries by category.
+- 🔎 **Product Search** — Instantly find products by name or category.
+- 📦 **Product Details Page** — View full product information and related items.
 - 🛒 **Cart System** — Add, remove, or view products in the cart.
-- 🏠 **Address Management** — Add or update delivery address before checkout.
-- 💳 **Payment Options** — Pay using **Cash on Delivery (COD)** or **Online (Stripe)**.
-- ✅ **Order Placement** — Confirm orders and receive real-time order summary.
+- 🏠 **Delivery Address** — Add or update address during checkout.
+- 💳 **Payment Options** — Pay via **Cash on Delivery (COD)** or **Online (Stripe)**.
+- ✅ **Order Placement** — Smooth checkout with real-time confirmation.
 
 ### 🏪 Seller Module
-- 🧾 **Seller Authentication** — Separate login and registration for sellers.
-- 📋 **Seller Dashboard** — Organized sections for:
-  - ➕ **Add Product**
-  - 🗂️ **Product List**
-  - 📦 **Orders Management**
-- 🔁 **Stock Availability Toggle** — Instantly switch between *In Stock* or *Out of Stock*.
-- 📊 **Efficient Product Management** — Manage products and inventory in real time.
+- 🧾 **Seller Authentication** — Separate login/signup for sellers.
+- 🗂️ **Seller Dashboard** — Manage:
+  - ➕ Add Products  
+  - 📋 View Product List  
+  - 📦 Manage Orders
+- 🔁 **Stock Toggle Feature** — Quickly switch between *In Stock* / *Out of Stock*.
+- ⚡ **Real-Time Product Management** — Efficiently handle inventory and orders.
 
 ---
 
 ## 🧩 Tech Stack
 
-| Layer | Technologies Used |
-|-------|--------------------|
+| Layer | Technologies |
+|-------|---------------|
 | **Frontend** | React.js, Tailwind CSS |
 | **Backend** | Node.js, Express.js |
 | **Database** | MongoDB |
+| **Architecture** | MVC (Model–View–Controller) |
 | **Authentication** | JSON Web Token (JWT) |
 | **Payment Gateway** | Stripe |
 | **Deployment** | Vercel |
-
----
 
