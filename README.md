@@ -1,44 +1,46 @@
-# 🛒 GreenCart — Online Grocery Delivery Platform
+# 🛒 GreenCart  
 
-**Live Application:** [GreenCart](https://green-cart-jade.vercel.app/)
-
-GreenCart is a full-stack **Grocery Delivery Web Application** built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.  
-It provides a seamless experience for customers to browse, search, and purchase groceries online, while enabling sellers to manage their products, stock, and orders efficiently.
-
----
-
-## 🌟 Key Features
-
-### 👤 User Module
-- 🔐 **User Authentication** — Secure login and signup.
-- 🛍️ **Category-Wise Browsing** — View groceries by category.
-- 🔎 **Product Search** — Instantly find products by name or category.
-- 📦 **Product Details Page** — View full product information and related items.
-- 🛒 **Cart System** — Add, remove, or view products in the cart.
-- 🏠 **Delivery Address** — Add or update address during checkout.
-- 💳 **Payment Options** — Pay via **Cash on Delivery (COD)** or **Online (Stripe)**.
-- ✅ **Order Placement** — Smooth checkout with real-time confirmation.
-
-### 🏪 Seller Module
-- 🧾 **Seller Authentication** — Separate login/signup for sellers.
-- 🗂️ **Seller Dashboard** — Manage:
-  - ➕ Add Products  
-  - 📋 View Product List  
-  - 📦 Manage Orders
-- 🔁 **Stock Toggle Feature** — Quickly switch between *In Stock* / *Out of Stock*.
-- ⚡ **Real-Time Product Management** — Efficiently handle inventory and orders.
+**GreenCart** is a full-stack **grocery delivery web application** built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.  
+It provides a smooth online shopping experience for customers and a management dashboard for sellers.  
+The project follows the **MVC architecture** for a clean, scalable, and maintainable structure.  
 
 ---
 
-## 🧩 Tech Stack
+## 🔗 Live Demo  
+👉 [Visit GreenCart](https://green-cart-jade.vercel.app/)  
 
-| Layer | Technologies |
-|-------|---------------|
-| **Frontend** | React.js, Tailwind CSS |
-| **Backend** | Node.js, Express.js |
-| **Database** | MongoDB |
-| **Architecture** | MVC (Model–View–Controller) |
-| **Authentication** | JSON Web Token (JWT) |
-| **Payment Gateway** | Stripe |
-| **Deployment** | Vercel |
+---
 
+## ✨ Features  
+
+### 👤 User Module  
+- 🔐 **User Authentication** — Register and log in securely  
+- 🛍️ **Category-Wise Browsing** — View groceries by category  
+- 🔎 **Search Functionality** — Search for products by name or category  
+- 📦 **Product Details Page** — View detailed information and related items  
+- 🛒 **Cart System** — Add, remove, and view items in the cart  
+- 🏠 **Delivery Address** — Add or update address during checkout  
+- 💳 **Payment Options** — Choose **Cash on Delivery (COD)** or **Online (Stripe)**  
+- ✅ **Order Placement** — Seamless checkout and confirmation  
+
+### 🏪 Seller Module  
+- 🧾 **Seller Authentication** — Separate login/signup for sellers  
+- 📋 **Seller Dashboard** — Includes:  
+  - ➕ Add Product  
+  - 🗂️ Product List  
+  - 📦 Orders Management  
+- 🔁 **Stock Toggle** — Mark products as *In Stock* or *Out of Stock* instantly  
+- ⚡ **Real-Time Management** — Efficiently handle inventory and orders  
+
+---
+
+## 🛠️ Tech Stack  
+- **MongoDB** — Database  
+- **Express.js** — Backend framework  
+- **React.js** — Frontend library  
+- **Node.js** — Runtime environment  
+- **Tailwind CSS** — UI styling  
+- **JWT** — Secure authentication  
+- **Stripe** — Payment gateway  
+- **Vercel** — Deployment  
+- **MVC Architecture** — Clean project structure  
