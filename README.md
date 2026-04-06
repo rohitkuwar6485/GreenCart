@@ -4,57 +4,49 @@
 
 **GreenCart** is a full-stack **grocery delivery web application** built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.  
 
-It provides a seamless shopping experience for customers along with a **dedicated seller dashboard** for managing products, inventory, and orders.  
-
-The project follows the **MVC architecture** for a clean, scalable, and maintainable code structure.  
+It provides a seamless shopping experience for customers along with a **seller dashboard** for managing products and orders.  
 
 ---
 
 ## 🌐 Live Demo  
 
 - 👤 **User App** → [Visit GreenCart](https://green-cart-jade.vercel.app/)  
-- 🏪 **Seller Dashboard** → [Visit Seller Panel](https://green-cart-jade.vercel.app/seller)  
+- 🏪 **Seller Panel** → [Visit Seller](https://green-cart-jade.vercel.app/seller)  
 
 ---
 
 ## ✨ Features  
 
-### 👤 User Module  
+### 👤 User  
 
-- 🔐 **User Authentication** — Secure registration and login  
-- 🛍️ **Category-Wise Browsing** — Browse groceries by category  
-- 🔎 **Search Functionality** — Search products by name or category  
-- 📦 **Product Details** — View detailed product information  
-- 🛒 **Cart System** — Add, remove, and manage cart items  
-- 🏠 **Delivery Address** — Add/update address during checkout  
-- 💳 **Payment Options** — Cash on Delivery (COD) & Stripe (Online)  
-- ✅ **Order Placement** — Smooth checkout and confirmation  
+- User Authentication  
+- Browse products by category  
+- Search products  
+- Cart system  
+- Address management  
+- Order placement  
+- Payment (COD & Stripe)  
 
 ---
 
-### 🏪 Seller Module  
+### 🏪 Seller  
 
-- 🔐 **Seller Authentication** — Separate login/signup  
-- 📊 **Seller Dashboard** with:  
-  - ➕ Add Product  
-  - 📋 Product List  
-  - 📦 Orders Management  
-- 🔁 **Stock Control** — Toggle In Stock / Out of Stock  
-- ⚡ **Real-Time Management** — Manage inventory and orders efficiently  
+- Seller Authentication  
+- Add & manage products  
+- View orders  
+- Stock management  
 
 ---
 
 ## 🛠️ Tech Stack  
 
-- **MongoDB** — Database  
-- **Express.js** — Backend framework  
-- **React.js** — Frontend library  
-- **Node.js** — Runtime environment  
-- **Tailwind CSS** — UI styling  
-- **JWT** — Authentication  
-- **Stripe** — Payment gateway  
-- **Vercel** — Deployment  
-- **MVC Architecture** — Structured code design  
+- MongoDB  
+- Express.js  
+- React.js  
+- Node.js  
+- Tailwind CSS  
+- JWT  
+- Stripe  
 
 ---
 
@@ -63,10 +55,8 @@ The project follows the **MVC architecture** for a clean, scalable, and maintain
 ```
 GreenCart
 │
-├── backend/
-├── frontend/      # User application
-├── seller/        # Seller dashboard
-├── .gitignore
+├── server/
+├── client/
 └── README.md
 ```
 
@@ -74,26 +64,18 @@ GreenCart
 
 ## ▶️ Run Locally  
 
-### Backend  
+### Server  
 
 ```bash
-cd backend
+cd server
 npm install
 npm start
 ```
 
-### Frontend (User)  
+### Client  
 
 ```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### Seller Dashboard  
-
-```bash
-cd seller
+cd client
 npm install
 npm run dev
 ```
@@ -102,43 +84,30 @@ npm run dev
 
 ## 🔑 Environment Variables  
 
-### Backend (.env)
+### Server (.env)
 
 ```
-MONGO_URL=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-
-STRIPE_SECRET_KEY=your_stripe_secret_key
-
-FRONTEND_URL=your_user_app_url
-SELLER_URL=your_seller_dashboard_url
+MONGO_URL=your_value
+JWT_SECRET=your_value
+STRIPE_SECRET_KEY=your_value
 ```
 
 ---
 
-### Frontend (.env)
+### Client (.env)
 
 ```
-VITE_BACKEND_URL=your_backend_api_url
-```
-
----
-
-### Seller (.env)
-
-```
-VITE_BACKEND_URL=your_backend_api_url
+VITE_BACKEND_URL=your_value
 ```
 
 ---
 
 ## 🚧 Future Improvements  
 
-- Order tracking system  
+- Order tracking  
 - Admin panel  
-- Advanced filters and recommendations  
-- Notifications (email/SMS)  
-- Performance optimization  
+- Notifications  
+- Advanced filters  
 
 ---
 
@@ -150,4 +119,4 @@ Rohit Kuwar
 
 ## ⭐ Note  
 
-This project demonstrates a real-world **e-commerce grocery platform** with both **user and seller modules**, including authentication, payment integration, and full CRUD operations using the MERN stack.
+This project demonstrates a MERN-based grocery delivery platform with user and seller functionality.
